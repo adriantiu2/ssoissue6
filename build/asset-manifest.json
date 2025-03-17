@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ssoissue6/static/css/main.374aee44.css",
-    "main.js": "/ssoissue6/static/js/main.b8d91ace.js",
+    "main.js": "/ssoissue6/static/js/main.c663ae41.js",
     "index.html": "/ssoissue6/index.html",
     "main.374aee44.css.map": "/ssoissue6/static/css/main.374aee44.css.map",
-    "main.b8d91ace.js.map": "/ssoissue6/static/js/main.b8d91ace.js.map"
+    "main.c663ae41.js.map": "/ssoissue6/static/js/main.c663ae41.js.map"
   },
   "entrypoints": [
     "static/css/main.374aee44.css",
-    "static/js/main.b8d91ace.js"
+    "static/js/main.c663ae41.js"
   ]
 }
