@@ -26,7 +26,7 @@ import IdxPage from './IdxPage';
 const videos = [
   { id: "1", src: "/videos/myvid.MOV" },
   { id: "2", src: "/videos/myvid2.MOV" },
-  { id: "3", src: "/videos/myvid3.mp4" },
+  { id: "3", src: "https://www.w3schools.com/html/movie.mp4" },
   { id: "4", src: "/videos/myvid4.MOV" },
   { id: "5", src: "/videos/myvid5.MOV" },
   { id: "6", src: "/videos/myvid6.MOV" },
