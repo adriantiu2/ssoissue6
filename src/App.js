@@ -24,15 +24,15 @@ import IdxPage from './IdxPage';
  //  { id: "8", src: "/videos/myvid8.MOV" },
 
 const videos = [
-  { id: "1", src: "/videos/myvid.MOV" },
-  { id: "2", src: "/videos/myvid2.MOV" },
+  { id: "1", src: process.env.PUBLIC_URL + "/videos/myvid.MOV" },
+  { id: "2", src: process.env.PUBLIC_URL + "/videos/myvid2.MOV" },
   { id: "3", src: "https://www.w3schools.com/html/movie.mp4" },
-  { id: "4", src: "/videos/myvid4.MOV" },
-  { id: "5", src: "/videos/myvid5.MOV" },
-  { id: "6", src: "/videos/myvid6.MOV" },
+  { id: "4", src: process.env.PUBLIC_URL + "/videos/myvid4.MOV" },
+  { id: "5", src: process.env.PUBLIC_URL + "/videos/myvid5.MOV" },
+  { id: "6", src: process.env.PUBLIC_URL + "/videos/myvid6.mp4" },
   { id: "7", src: "https://www.w3schools.com/html/mov_bbb.mp4" },
   { id: "8", src: "https://www.w3schools.com/html/movie.mp4" },
-  { id: "9", src: "/videos/myvid9.MOV" },
+  { id: "9", src: process.env.PUBLIC_URL + "/videos/myvid9.MOV" },
   { id: "10", src: "https://www.w3schools.com/html/movie.mp4" },
   { id: "11", src: "https://www.w3schools.com/html/mov_bbb.mp4" },
   { id: "12", src: "https://www.w3schools.com/html/movie.mp4" },
@@ -60,7 +60,7 @@ const captions = [
 ];
 
 const replacementText = [
-  <p>After the rodents kill two butterflies with an apple and a rock, and then attack Bunny, he sets aside his gentle nature and orchestrates a complex plan to avenge the two butterflies. Using a variety of traps, Bunny first dispatches Rinky and. Frank, unaware of the fate of the other two, is seen taking off from a tree, and gliding towards a seemingly unsuspecting. Once airborne, Frank triggers Bunny's final series of traps, causing Frank to crash into a tree branch and plummet into a spike trap below. At the last moment, Frank grabs onto what he believes is the branch of a small tree, but discovers it is just a twig Bunny is holding over the spikes. Bunny snatches up Frank. The film concludes with Bunny being pleased with himself as a butterfly flies past him holding a string, at the end of which is Frank attached as a flying kite.</p>,
+  "After the rodents kill two butterflies with an apple and a rock, and then attack Bunny, he sets aside his gentle nature and orchestrates a complex plan to avenge the two butterflies. Using a variety of traps, Bunny first dispatches Rinky and. Frank, unaware of the fate of the other two, is seen taking off from a tree, and gliding towards a seemingly unsuspecting. Once airborne, Frank triggers Bunny's final series of traps, causing Frank to crash into a tree branch and plummet into a spike trap below. At the last moment, Frank grabs onto what he believes is the branch of a small tree, but discovers it is just a twig Bunny is holding over the spikes. Bunny snatches up Frank. The film concludes with Bunny being pleased with himself as a butterfly flies past him holding a string, at the end of which is Frank attached as a flying kite.",
   "Text for video 2 goes here.",
   "Here's the new text for video 3.",
   "New description for the fourth video.",
